@@ -1,0 +1,108 @@
+/* body { */
+	/* font-family: Verdana; */
+	/* line-height: 1.6; */
+/* } */
+/* .center { */
+	/* display: block; */
+	/* margin: auto; */
+/* } */
+/* #header { */
+	/* margin: auto; */
+	/* height: 30vh; */
+	/* text-align: center; */
+/* } */
+/* #portrait { */
+	/* width: 18%; */
+	/* height: 25%; */
+	/* border-radius: 100%; */
+	/* display: inline-block; */
+	/* clear: both; */
+/* } */
+/* .nameContainer { */
+	/* display: inline-block; */
+	/* width: 10%; */
+	/* height: 10%; */
+	/* margin: auto; */
+/* }	 */
+/* #firstName { */
+/* } */
+/* #lastName { */
+/* } */
+/* #navBar { */
+	/* width: 100%; */
+/* } */
+/* #navBar > ul{ */
+	/* list-style-type: none; */
+	/* text-align: center; */
+/* } */
+	
+/* .navOption { */
+	/* display:inline-block; */
+	/* margin-left: 5px; */
+	/* margin-right: 5px; */
+	/* width: 23%; */
+	/* text-align: center; */
+/* } */
+/* .navOption > a { */
+	/* text-decoration: none; */
+/* } */
+/* .section { */
+	/* magin:auto; */
+/* } */
+/* .sectionHeader { */
+	/* margin: auto; */
+	/* clear: both; */
+	/* width: 50%; */
+	/* text-align: center; */
+/* } */
+#header {
+	background-image: url("coryBass.jpg");
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-color: #1b1725;
+	background-position: center;
+	background-blend-mode: lighten;
+	text-align: center;
+	color: white;
+	height: 35%;
+	word-spacing: 300px;
+}
+
+body {
+	background-color: black;
+}
+.white-background {
+	background-color:white;
+}
+.section {
+	margin-top: 10px;
+	padding: 10px 30px;
+	border-radius: 15px;
+	text-align: center;
+}
+.navOption {
+	margin-right: 5px;
+	color: inherit;
+}
+#headerName {
+	/* position: absolute; */
+	margin: 0 auto;
+}
+#firstName {
+	float: left;
+	position: relative;
+	left: 620px;
+}
+#lastName {
+	float: right;
+	position: relative;
+	left: 180px;
+}
+.fab {
+  font-size: 4em;
+  margin: 10px;
+  text-decoration: none;
+}
+.fab:hover {
+	text-decoration: none;
+}

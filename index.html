@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+		<title> Cory Robinson - Professional Software Developer </title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<div id="header" class="col-sm jumbotron jumbotron-fluid">
+			<div class="container">
+				<!-- <div class="col"> -->
+					<!-- <h1 id="firstName" class="nameContainer display-4">Cory</h1> -->
+				<!-- </div> -->
+				<!-- <div class="col media w-100"> -->
+					<!-- <img id="portrait" class="img-fluid align-self-center rounded w-100" src="coryBass2.jpg" alt="Cory Robinson playing bass guitar"/> -->
+				<!-- </div>  -->
+				<!-- <div class="col"> -->
+					<!-- <h1 id="lastName" class="nameContainer display-4">Robinson</h1> -->
+				<!-- </div> -->
+				<h1 id="headerName" class="display-4"> Cory Robinson </h1>
+			</div>
+		</div>
+		<div class="container">
+			<div id="navBar" class="row">
+				<div class="col-sm">
+					<nav class="nav nav-pills nav-fill">
+						<a id="aboutOption" class="navOption nav-item nav-link white-background" href="#about">About</a>
+						<a id="resumeOption" class="navOption nav-item nav-link white-background"href="#resume">Resume</a>
+						<a id="projectsOption" class="navOption nav-item nav-link white-background" href="#projects">Projects</a>
+						<a id="contactOption" class="navOption nav-item nav-link white-background" href="#contact">Contact</a>
+					</nav>
+				</div>
+			</div>
+			<div id="content row">
+				<div id="about" class="section col white-background">
+					<h1 class="sectionHeader"> About </h1>
+					<p id="aboutText">
+							Hello and welcome to my professional portfolio page! I am a computer technology professional and 
+						enthusiat. I am currently enrolled in a bachelors degree program at <a href="https://wgu.edu">Western Governors University (WGU)</a>
+						focusing on Software Development. My goal is to have graduated by the end of 2019.
+						
+							Regarding me as a person: I'm a fun loving and optimistic extrovert who loves meeting new people and making new friends. People often
+						point out that I smile more than most people. I'm a strong communicator, regardless of the medium. I have found that communicating well 
+						with others helps to build robust, flourishing, and productive relationships.
+					</p>
+					<a href="https://www.linkedin.com/in/cory-robinson-997792b7" class="fab fa-linkedin"></a>
+					<h2> Technology Experience </h2>
+					<table id="knownLanguages" class="table table-bordered table-hover">
+						<caption> <h3> Programming Languages </h3> </caption>
+						<thead>
+							<tr>
+								<th> Language Name </th>
+								<th> Knowledge Level </th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td> Python </td>
+								<td> Intermediate </td>
+							</tr>
+							<tr>
+								<td> Javascript </td>
+								<td> Intermediate </td>
+							</tr>
+						</tbody>
+							<tr>
+								<td> SQL </td>
+								<td> Intermediate </td>
+							</tr>
+							<tr>
+								<td> Java </td>
+								<td> Entry-level </td>
+							</tr>
+					</table>
+					<table id="knownOS" class="table table-bordered table-hover">
+						<caption> <h3> Operating Systems </h3> </caption>
+						<thead>
+							<tr>
+								<th> Operating System Name </th>
+								<th> Knowledge Level </th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td> Windows (Desktop/Server) </td>
+								<td> Professional </td>
+							</tr>
+							<tr>
+								<td> Android </td>
+								<td> Intermediate </td>
+							</tr>
+							<tr>
+								<td> Linux (Server) </td>
+								<td> Entry-level </td>
+							</tr>
+						</tbody>
+							<tr>
+								<td> macOS (Desktop) </td>
+								<td> Entry-level </td>
+							</tr>
+					</table>
+					<h2> Hobbies </h2>
+					<ul id="hobbies" class="list-group">
+						<li class="list-group-item"> Playing Bass Guitar </li>
+						<li class="list-group-item"> Cooking </li>
+						<li class="list-group-item"> Playing video games </li>
+						<li class="list-group-item"> Programming </li>
+					</ul>
+				</div>
+				<div id="resume" class="section col white-background">
+					<h1 class="sectionHeader"> Resume </h1>
+					<p> This will hold a copy of my resume </p>
+				</div>
+				<div id="projects" class="section col white-background">
+					<h1 class="sectionHeader"> Projects </h1>
+					<a href="https://github.com/cearo"> My Github Profile </a>
+				</div>
+				<div id="contact" class="section col white-background">
+					<h1 class="sectionHeader"> Contact </h1>
+					<form id="contactMe">
+						<div class="form-group row">
+						<label for="contactReason"> Reason for contact </label>
+						<select class="form-control" id="contactReason" name="contactReason" size="2">
+							<option value="personal"> Personal </option>
+							<option value="professional"> Professional </option>
+						</select>
+						<select class="form-control" name="professionalDetail" size="2">
+							<option value="career"> Career Offering </option>
+							<option value="freelance"> Freelance Service Request </option>
+						</select>
+						</div>
+						<div class="form-group row">
+						<label for="firstName"> First Name: </label>
+						<input id="firstName" class="form-control" form="contactMe" name="firstName" type="text" placeholder="Your First Name" required>
+						<label for="lastName"> Last Name: </label>
+						<input id="lastName" class="form-control" form="contactMe" name="lastName" type="text" placeholder="Your Last Name" required>
+						<label for="email"> Your email: </label>
+						<input id="email" class="form-control" form="contactMe" name="email" type="text" placeholder="Your Email" required>
+						<label for="message"> Message: </label>
+						<textarea id="message" form="contactMe" name="message" placeholder="Your message to me here" cols="100" rows="10" wrap="soft" required></textarea>
+						<input class="form-control" type="submit" value="Submit">
+						</div>
+					</form>
+				</div>
+			</div>	
+		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+</html>
